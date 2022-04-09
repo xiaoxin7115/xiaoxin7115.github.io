@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的博客beginning</title>
-    <url>/2022/04/02/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2beginning/</url>
-    <content><![CDATA[<p>爱猪妮是终身浪漫的开始</p>
-<blockquote>
-<p>亲爱的，你知道嘛。其实我一直在寻觅有什么方法可以不去喜欢你，现在终于明白…我对你的爱恋早溶入血液，渗到骨髓并且永久的驻留在身体的每个细胞里。我就这样不停的喜欢你喜欢你喜欢你喜欢你……直到停止心跳与呼吸……</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>ssm</title>
     <url>/2022/04/09/ssm%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>SSM</p>
@@ -1528,6 +1519,15 @@ public List&lt;User&gt; findAll();
 <p><a href="aop:config">aop:config</a><br>    &lt;aop:pointcut id=”txPointcut” expression=”execution(* com.itheima.service.impl.*.*(..))”/&gt;<br>    &lt;aop:advisor advice-ref=”txAdvice” pointcut-ref=”txPointcut”/&gt;<br></aop:config></p>
 <p>（5）修改 Service 实现类代码</p>
 <p>@Service(“accountService”)<br>public class AccountServiceImpl implements AccountService {<br>    @Autowired<br>    private AccountMapper accountMapper;<br>    public void save(Account account) {<br>        accountMapper.save(account);<br>    }<br>    public List<Account> findAll() {<br>        return accountMapper.findAll();<br>    }<br>}</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的博客beginning</title>
+    <url>/2022/04/02/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2beginning/</url>
+    <content><![CDATA[<p>爱猪妮是终身浪漫的开始</p>
+<blockquote>
+<p>亲爱的，你知道嘛。其实我一直在寻觅有什么方法可以不去喜欢你，现在终于明白…我对你的爱恋早溶入血液，渗到骨髓并且永久的驻留在身体的每个细胞里。我就这样不停的喜欢你喜欢你喜欢你喜欢你……直到停止心跳与呼吸……</p>
+</blockquote>
 ]]></content>
   </entry>
   <entry>
