@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我的博客beginning</title>
+    <url>/2022/04/02/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2beginning/</url>
+    <content><![CDATA[<p>爱猪妮是终身浪漫的开始</p>
+<blockquote>
+<p>亲爱的，你知道嘛。其实我一直在寻觅有什么方法可以不去喜欢你，现在终于明白…我对你的爱恋早溶入血液，渗到骨髓并且永久的驻留在身体的每个细胞里。我就这样不停的喜欢你喜欢你喜欢你喜欢你……直到停止心跳与呼吸……</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title></title>
     <url>/2022/04/15/MySQL/</url>
     <content><![CDATA[<p>mysql</p>
@@ -3156,15 +3165,6 @@ public List&lt;User&gt; findAll();
 ]]></content>
   </entry>
   <entry>
-    <title>我的博客beginning</title>
-    <url>/2022/04/02/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2beginning/</url>
-    <content><![CDATA[<p>爱猪妮是终身浪漫的开始</p>
-<blockquote>
-<p>亲爱的，你知道嘛。其实我一直在寻觅有什么方法可以不去喜欢你，现在终于明白…我对你的爱恋早溶入血液，渗到骨髓并且永久的驻留在身体的每个细胞里。我就这样不停的喜欢你喜欢你喜欢你喜欢你……直到停止心跳与呼吸……</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>java数据结构</title>
     <url>/2022/04/02/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84Java/</url>
     <content><![CDATA[<p>数据结构</p>
@@ -3682,6 +3682,19 @@ public List&lt;User&gt; findAll();
 <li><p>Dijstra算法的实现</p>
 </li>
 </ul>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2022/04/17/%E8%AE%B0%E5%BD%95mysql%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>安装bug心得</p>
+<span id="more"></span>
+
+<p>mysql误删了一个系统文件，之后卸载了文件，删了注册表（HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Eventlog\Application\MySQL 目录删除      2、HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\Eventlog\Application\MySQL 目录删除 　　3、HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application\MySQL），发现重新初始化就行，然而为时已晚</p>
+<p>之后被无法关闭服务折磨，又发现sc query mysql 和 sc delete mysql命令，一直用错误的方式打开终端，应该在搜索里搜命令提示符，再右键以管理员身份运行。之后再按照教程安装。</p>
+<p>hexo的安装，因为直接已经弄过github的ssh密钥，现在只用下载hexo，用脚手架初始化都不用（因为已经有了myblog里的一些文件），只需要在下载个hexo的git，就可以部署了。</p>
+<p>还有node的安装，安装后现在的东西在C盘不要动</p>
+<p>尤其cnpm的安装，注意教程。</p>
 ]]></content>
   </entry>
 </search>
